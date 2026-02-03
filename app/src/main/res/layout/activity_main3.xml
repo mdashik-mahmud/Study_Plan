@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bggradient"
+    tools:context=".MainActivity3">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardTop"
+        android:layout_width="match_parent"
+        android:layout_height="250.dp"
+        app:cardBackgroundColor="#FF5722"
+        app:cardCornerRadius="30.dp"
+        app:cardElevation="20.dp"
+        android:layout_margin="20.dp" >
+
+
+    <TextView
+        android:id="@+id/te1TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic Algebra"
+        android:textSize="25.dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20.dp"
+        android:layout_marginTop="15.dp" />
+        <TextView
+            android:id="@+id/te2TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maths 101"
+            android:textSize="20.dp"
+            android:textStyle="normal"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20.dp"
+            android:layout_marginTop="50.sp" />
+        <TextView
+            android:id="@+id/te3TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10/2/2026"
+            android:textSize="20.dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20.dp"
+            android:layout_marginTop="120.dp" />
+        <TextView
+            android:id="@+id/te4TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class KA5"
+            android:textSize="20.dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20.dp"
+            android:layout_marginTop="150.dp" />
+        <Button
+            android:id="@+id/Btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="185.dp"
+            android:layout_marginLeft="25.dp"
+            android:text="Sing up"
+            android:textSize="18.dp"
+            android:textColor="@color/black"
+            android:paddingHorizontal="40.dp"
+            android:backgroundTint="@color/white"
+            />
+
+        <ImageView
+            android:id="@+id/img1IV"
+            android:layout_width="148dp"
+            android:layout_height="183dp"
+            android:layout_marginLeft="200.dp"
+            android:layout_marginTop="30.dp"
+            android:src="@drawable/book1" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardbotton"
+        android:layout_width="match_parent"
+        android:layout_height="250.dp"
+        app:cardBackgroundColor="#1D31A2"
+        app:cardCornerRadius="30.dp"
+        app:cardElevation="20.dp"
+        android:layout_margin="20.dp" >
+
+
+        <TextView
+            android:id="@+id/te5TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shifts in Production"
+            android:textSize="25.dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20.dp"
+            android:layout_marginTop="15.dp" />
+        <TextView
+            android:id="@+id/te6TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prossiblity Curve"
+            android:textSize="20.dp"
+            android:textStyle="normal"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20.dp"
+            android:layout_marginTop="45.sp" />
+        <TextView
+            android:id="@+id/te7TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Macroeconomics"
+            android:textSize="20.dp"
+            android:textStyle="normal"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20.dp"
+            android:layout_marginTop="70.sp" />
+        <TextView
+            android:id="@+id/te8TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15/3/2026"
+            android:textSize="20.dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20.dp"
+            android:layout_marginTop="120.dp" />
+        <TextView
+            android:id="@+id/te9TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Online"
+            android:textSize="20.dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="21.dp"
+            android:layout_marginTop="150.dp" />
+        <Button
+            android:id="@+id/Btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="185.dp"
+            android:layout_marginLeft="25.dp"
+            android:text="Sing up"
+            android:textSize="18.dp"
+            android:textColor="@color/black"
+            android:paddingHorizontal="40.dp"
+            android:backgroundTint="@color/white"
+            />
+
+        <ImageView
+            android:id="@+id/img2IV"
+            android:layout_width="148dp"
+            android:layout_height="183dp"
+            android:layout_marginLeft="200.dp"
+            android:layout_marginTop="40.dp"
+            android:src="@drawable/book1" />
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/img3Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sing up for another Exam"
+        android:backgroundTint="#801919"
+        android:layout_marginTop="50.dp"
+        android:layout_marginLeft="20.dp"
+        android:layout_marginRight="20.dp"
+        />
+
+</LinearLayout>
